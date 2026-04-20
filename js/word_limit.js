@@ -19,5 +19,5 @@ textarea.addEventListener("input", () => {
     btn.style.backgroundColor = "";
   }
 
-  btn.disabled = text.length === 0 || text.length > maxlength || remaining <= 0;
+  btn.disabled = text.length === 0 || remaining === 0;
 });
