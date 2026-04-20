@@ -10,7 +10,7 @@ textarea.addEventListener("input", () => {
   }
 
   let remaining = maxlength - text.length;
-  counter.textContent = remaining + " characters remaining";
+  counter.textContent = remaining + "/" + maxlength;
   if (remaining <= 0) {
     counter.style.color = "red";
     btn.style.backgroundColor = "red";
