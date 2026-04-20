@@ -20,6 +20,4 @@ textarea.addEventListener("input", () => {
   }
 
   btn.disabled = text.length === 0 || text.length > maxlength || remaining <= 0;
-
-  //counter.textContent = textarea.value.length + "/" + maxlength;
 });
